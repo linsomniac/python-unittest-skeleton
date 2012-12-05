@@ -24,5 +24,12 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 
 	def test_XXX_Test_Name(self):
 		raise NotImplementedError('Insert test code here.')
+		#  Examples:
+		# self.assertEqual(fp.readline(), 'This is a test')
+		# self.assertFalse(os.path.exists('a'))
+		# self.assertTrue(os.path.exists('a'))
+		# self.assertTrue('already a backup server' in c.stderr)
+		# with self.assertRaises(Exception):
+		#	raise Exception('test')
 
 unittest.main()
