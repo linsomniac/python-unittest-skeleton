@@ -31,5 +31,6 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 		# self.assertTrue('already a backup server' in c.stderr)
 		# with self.assertRaises(Exception):
 		#	raise Exception('test')
+		# self.assertIn('fun', 'disfunctional')
 
 unittest.main()
