@@ -3,7 +3,7 @@
 #  XXX  Identifying information about tests here.
 #
 #===============
-#  This is based on a skeleton test file, more informatoin at:
+#  This is based on a skeleton test file, more information at:
 #
 #     https://github.com/linsomniac/python-unittest-skeleton
 
