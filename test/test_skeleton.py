@@ -15,11 +15,11 @@ import unittest
 class test_XXX_Test_Group_Name(unittest.TestCase):
 	@classmethod
 	def setUp(self):
-		###  code to do setup
+		###  XXX code to do setup
 		pass
 
 	def tearDown(self):
-		###  code to do tear down
+		###  XXX code to do tear down
 		pass
 
 	def test_XXX_Test_Name(self):
