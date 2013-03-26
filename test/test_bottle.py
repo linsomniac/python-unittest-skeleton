@@ -14,6 +14,8 @@ raise NotImplementedError('To customize, remove this line and '
 
 import sys
 import unittest
+
+sys.path.append('..')      #  XXX Probably needed to import your code
 import XXX_mywebapp
 
 

@@ -12,6 +12,10 @@ raise NotImplementedError('To customize, remove this line and '
 
 import unittest
 
+import sys
+sys.path.append('..')      #  XXX Probably needed to import your code
+import XXX_mywebapp
+
 class test_XXX_Test_Group_Name(unittest.TestCase):
 	@classmethod
 	def setUp(self):
@@ -29,8 +33,9 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 		# self.assertFalse(os.path.exists('a'))
 		# self.assertTrue(os.path.exists('a'))
 		# self.assertTrue('already a backup server' in c.stderr)
+		# self.assertIn('fun', 'disfunctional')
+		# self.assertNotIn('crazy', 'disfunctional')
 		# with self.assertRaises(Exception):
 		#	raise Exception('test')
-		# self.assertIn('fun', 'disfunctional')
 
 unittest.main()
