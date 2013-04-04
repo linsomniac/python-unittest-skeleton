@@ -17,7 +17,6 @@ sys.path.append('..')      #  XXX Probably needed to import your code
 import XXX_mywebapp
 
 class test_XXX_Test_Group_Name(unittest.TestCase):
-	@classmethod
 	def setUp(self):
 		###  XXX code to do setup
 		pass
