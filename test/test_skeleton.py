@@ -38,7 +38,7 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 
 
 	def test_XXX_Simulate_TCP_Failures(self):
-		from mctestsupp import RECEIVE, CommandServer
+		from faketcpserver import RECEIVE, CommandServer
 
 		immediately_disconnect_server = CommandServer([])
 		sc = memcached2.ServerConnection('memcached://127.0.0.1:{0}/'
