@@ -8,6 +8,11 @@ The "test_skeleton.py" is an example of standard Python tests.
 
 The "test_bottle.py" is some test code for a Bottle web application.
 
+"faketcpserver.py" has code to create a fake TCP server which you can
+provide a script to emulate certain send/receive/hangup behavior, to
+simulate a TCP server that misbehaes or disconnects.  Examples are in
+"test_skeleton.py".
+
 Usage
 -----
 
