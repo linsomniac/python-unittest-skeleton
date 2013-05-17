@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
-#  XXX  Identifying information about tests here.
+#  python-unittest-skeleton helper which allows for creating TCP
+#  servers that misbehave in certain ways, for testing code.
 #
 #===============
 #  This is based on a skeleton test file, more information at:
@@ -13,7 +14,11 @@ PY3 = sys.version > '3'
 
 class FakeTCPServer:
     '''A simple socket server so that specific error conditions can be tested.
-    This must be subclassed and implment the "server()" method.'''
+    This must be subclassed and implment the "server()" method.
+
+    The server() method would be implemented to do :py:func:`socket.send` and
+    :py:func:`socket.recv` calls to communicate with the client process.
+    '''
 
     def __init__(self):
         import socket
