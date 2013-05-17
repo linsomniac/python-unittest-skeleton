@@ -20,7 +20,7 @@ To use:
 
   * Check out repository.
 
-  * Copy "test/test_skeleton.py" into your "test" directory.
+  * Copy "tests/test_skeleton.py" into your "test" directory.
 
   * Rename "test_skeleton.py" to something more descriptive.  (Note: It
     should keep the "test_" prefix, so that "make" will
@@ -28,9 +28,8 @@ To use:
 
   * Edit this file and search for "XXX".
 
-  * Copy "Makefile" into your test directory.  It should work without
+  * Copy "Makefile" into your tests directory.  It should work without
     modification.
 
   * If you are doing bootle web development, copy "test_bottle.py" into
-    your "test" directory and rename it to something more useful.
-
+    your "tests" directory and rename it to something more useful.
