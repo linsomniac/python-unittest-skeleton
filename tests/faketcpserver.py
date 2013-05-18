@@ -12,6 +12,7 @@ import sys
 
 PY3 = sys.version > '3'
 
+
 class FakeTCPServer:
     '''A simple socket server so that specific error conditions can be tested.
     This must be subclassed and implment the "server()" method.
@@ -46,7 +47,7 @@ class FakeTCPServer:
                 count += 1
 
 
-RECEIVE = None          #  Instruct the server to read data
+RECEIVE = None          # instruct the server to read data
 
 
 class CommandServer(FakeTCPServer):
