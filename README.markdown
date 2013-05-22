@@ -23,8 +23,7 @@ To use:
   * Copy "tests/test_skeleton.py" into your "test" directory.
 
   * Rename "test_skeleton.py" to something more descriptive.  (Note: It
-    should keep the "test_" prefix, so that "make" will
-    run the tests).
+    should keep the "test_" prefix, so that "make" will run the tests).
 
   * Edit this file and search for "XXX".
 
@@ -33,3 +32,6 @@ To use:
 
   * If you are doing bootle web development, copy "test_bottle.py" into
     your "tests" directory and rename it to something more useful.
+
+  * If you have a CLI program, use the "cli_skeleton" in the top level
+    directory instead.
