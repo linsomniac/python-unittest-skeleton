@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+#
+#  NOTE: This is for tests in a stand-alone program, which is not
+#        implemented as a python module that could be otherwise
+#        imported by the test code, so it has inline tests.
+#
+#===============
+#  This is based on a skeleton test file, more information at:
+#
+#     https://github.com/linsomniac/python-unittest-skeleton
+
+raise NotImplementedError(
+        'To customize, remove this line and customize where it says XXX')
+
+import sys
+import unittest
+
+##################################
+#  XXX Your program code goes here
+##################################
+
+
+class __unit_tests__(unittest.TestCase):
+    def setUp(self):
+        ###  XXX code to do setup
+        pass
+
+    def tearDown(self):
+        ###  XXX code to do tear down
+        pass
+
+    def test_XXX_Test_Name(self):
+        raise NotImplementedError('Insert test code here.')
+        #  Examples:
+        # self.assertEqual(fp.readline(), 'This is a test')
+        # self.assertFalse(os.path.exists('a'))
+        # self.assertTrue(os.path.exists('a'))
+        # self.assertTrue('already a backup server' in c.stderr)
+        # self.assertIn('fun', 'disfunctional')
+        # self.assertNotIn('crazy', 'disfunctional')
+        # with self.assertRaises(Exception):
+        #	raise Exception('test')
+
+if __name__ == '__main__':
+    if 'test' in sys.argv[1:]:
+        suite = unittest.TestLoader().loadTestsFromTestCase(__unit_tests__)
+        unittest.TextTestRunner(verbosity=2).run(suite)
+        sys.exit(0)
