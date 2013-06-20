@@ -39,7 +39,7 @@ class __unit_tests__(unittest.TestCase):
         # self.assertIn('fun', 'disfunctional')
         # self.assertNotIn('crazy', 'disfunctional')
         # with self.assertRaises(Exception):
-        #	raise Exception('test')
+        #     raise Exception('test')
 
 if __name__ == '__main__':
     if 'test' in sys.argv[1:]:
