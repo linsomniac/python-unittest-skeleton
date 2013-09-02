@@ -12,6 +12,7 @@ raise NotImplementedError(
 
 import unittest
 
+import os
 import sys
 sys.path.append('..')      # XXX Probably needed to import your code
 
@@ -36,5 +37,12 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
         # self.assertNotIn('crazy', 'disfunctional')
         # with self.assertRaises(Exception):
         #	raise Exception('test')
+        #
+        # Unconditionally fail, for example in a try block that should raise
+        # self.fail('Exception was not raised')
+
+    @unittest.skipIf('SKIP_SLOW_TESTS' in os.environ, 'Requested fast tests')
+    def test_XXX_Slow_Test_Name(self):
+        raise NotImplementedError('Insert test code here.')
 
 unittest.main()
